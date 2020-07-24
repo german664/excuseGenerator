@@ -1,0 +1,45 @@
+#boton {
+
+    border-radius: 30px;
+    border: 3px solid #6d0009;
+    background-color: #cf2836;
+
+}
+
+p {
+    padding: 10px 50px;
+    font-family: 'Staatliches', cursive;
+    color: #6d0009;
+    font-size: 250%;
+    text-shadow: 0.1 black;
+    user-select: none
+}
+
+p:hover {
+    cursor: pointer;
+}
+
+.excusa {
+    color: #0e1929;
+
+}
+
+#boton:hover {
+    background-color: #fa3e4e;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#boton:active {
+    transform: scale(0.98);
+    transition: 0.1s;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1d3557;
+}
